@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PlataformaAgendamento.Domain\PlataformaAgendamento.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

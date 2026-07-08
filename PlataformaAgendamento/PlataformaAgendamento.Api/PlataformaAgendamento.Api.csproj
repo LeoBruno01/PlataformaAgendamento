@@ -8,6 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlataformaAgendamento.Application\PlataformaAgendamento.Application.csproj" />
+    <ProjectReference Include="..\PlataformaAgendamento.Domain\PlataformaAgendamento.Domain.csproj" />
+    <ProjectReference Include="..\PlataformaAgendamento.Infrastructure\PlataformaAgendamento.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Project Path="PlataformaAgendamento.Api/PlataformaAgendamento.Api.csproj" />
+  <Project Path="PlataformaAgendamento.Application/PlataformaAgendamento.Application.csproj" />
+  <Project Path="PlataformaAgendamento.Domain/PlataformaAgendamento.Domain.csproj" />
+  <Project Path="PlataformaAgendamento.Infrastructure/PlataformaAgendamento.Infrastructure.csproj" />
+</Solution>
